@@ -3,7 +3,7 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
 }
 .logo-icon {
     border-radius: 50%;
@@ -12,6 +12,7 @@
     background-image: url(https://picsum.photos/200);
     background-size: cover;
 }
+
 nav {
     display: flex;
 }

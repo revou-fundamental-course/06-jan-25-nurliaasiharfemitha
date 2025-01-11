@@ -19,7 +19,6 @@
     font-size: 25px;
     color:rgb(6, 141, 130);
     margin-right:auto;
-
 }
 
 nav {
@@ -28,7 +27,7 @@ nav {
 
 .left-rounded {
     border-radius: 10px 0 0 10px;
-   }
+}
 
 .right-rounded {
     border-radius: 0 10px 10px 0;

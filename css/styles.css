@@ -47,17 +47,43 @@ nav>a {
 }
 
 .book {
+    display: flex;
+    align-items: flex-end;
     background:rgba(6, 141, 130, 0.26);
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 25px;
-    box-shadow: 12px 8px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
+    box-shadow: 12px 8px 5px rgba(0, 0, 0, 0.1);  
 }
 
-.book-img{
-    background-position: left;
+.book-img1{
+    background-image:  url(https://cdn.gramedia.com/uploads/items/Garis_waktu.jpg);
     background-size: cover;
+    width: 100px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.book-img2{
+    background-image:  url(https://mediakita.com/wp-content/uploads/2022/08/kolase-edisi-revisi-2022.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.book-img3{
+    background-image:  url(https://mediakita.com/wp-content/uploads/2024/12/DISTILASI-ALKENA-COVER-BARU-.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    background-color: #ddd;
 }
 
 .content {

@@ -34,16 +34,26 @@ nav {
 }
 
 nav>a {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     padding: 7px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     text-decoration:none;
+    background:rgba(6, 141, 130, 0.959);
 }
 .banner-image {
     height: 450px;
     background-image: url(https://picsum.photos/1000);
     background-size: cover;
     background-position: center;
+}
+
+.about{
+    font-size: 20px;
+    text-align: justify;
+    background:rgba(6, 141, 130, 0.26);
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 25px;
 }
 
 .book {
@@ -90,6 +100,7 @@ nav>a {
     /* Opsinal */
     height: 500px;
 }
+
 footer {
     text-align: center;
 }

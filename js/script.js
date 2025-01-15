@@ -6,9 +6,19 @@ function replaceName() {
 
 replaceName()
 
+//form validation
 function formValidation (){
-   let nameInput = document.getElementById('nameinput');
+   let nameInput = document.getElementById('name-input').value;
+   
    console.log(nameInput);
+
+   //condition for validate form
+   if(nameInput == "") {
+        alert('Name must be filled out');
+   } else {
+        //Display result form
+        document.getElementById('result-form').innerHTML = nameInput;
+   }
 }
 
 document.getElementById('submit-button').addEventListener('click', formValidation);
